@@ -18,12 +18,11 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.formatting.black" },
 
     -- Languages
-    { import = "lazyvim.plugins.extras.lang.clangd" },
-    { import = "lazyvim.plugins.extras.lang.cmake" },
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.lang.markdown" },
     { import = "lazyvim.plugins.extras.lang.tex" },
     { import = "lazyvim.plugins.extras.lang.yaml" },
+    { import = "lazyvim.plugins.extras.lang.rust" },
 
     { import = "plugins" },
   },
